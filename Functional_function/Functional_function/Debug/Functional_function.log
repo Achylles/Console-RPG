@@ -1,0 +1,43 @@
+﻿  Game.cpp
+  main.cpp
+  PaladinPlayer.cpp
+  Player.cpp
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(6): error C2653: 'Player': is not a class or namespace name
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(6): error C2143: syntax error: missing ',' before '&'
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(6): error C2065: 'name': undeclared identifier
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(7): error C2550: 'Player': constructor initializer lists are only allowed on constructor definitions
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(8): warning C4508: 'Player': function should return a value; 'void' return type assumed
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(10): error C2523: 'Player::~Player': destructor tag mismatch
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(10): error C2510: 'Player': left of '::' must be a class/struct/union
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(13): warning C4508: 'Player': function should return a value; 'void' return type assumed
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(15): error C2510: 'Player': left of '::' must be a class/struct/union
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(19): error C2510: 'Player': left of '::' must be a class/struct/union
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(19): error C2065: 'Creature': undeclared identifier
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(19): error C2065: 'cr': undeclared identifier
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(19): error C2182: 'attack': illegal use of type 'void'
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(20): error C2448: 'attack': function-style initializer appears to be a function definition
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(30): error C2510: 'Player': left of '::' must be a class/struct/union
+c:\users\daniel\source\repos\functional_function\functional_function\player.cpp(32): error C2065: 'health': undeclared identifier
+  Unit.cpp
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(5): error C2653: 'Unit': is not a class or namespace name
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(8): warning C4508: 'Unit': function should return a value; 'void' return type assumed
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(11): error C2523: 'Unit::~Unit': destructor tag mismatch
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(11): error C2510: 'Unit': left of '::' must be a class/struct/union
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(12): error C2084: function 'int Unit(void)' already has a body
+  c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(5): note: see previous definition of 'Unit'
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(16): error C2510: 'Unit': left of '::' must be a class/struct/union
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(18): error C2065: 'm_Health': undeclared identifier
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(21): error C2510: 'Unit': left of '::' must be a class/struct/union
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(21): error C2065: 'target': undeclared identifier
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(22): error C2448: 'attack': function-style initializer appears to be a function definition
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(27): error C2510: 'Unit': left of '::' must be a class/struct/union
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(27): error C2065: 'target': undeclared identifier
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(27): error C2182: 'cast': illegal use of type 'void'
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(28): error C2448: 'cast': function-style initializer appears to be a function definition
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(32): error C2510: 'Unit': left of '::' must be a class/struct/union
+c:\users\daniel\source\repos\functional_function\functional_function\unit.cpp(34): error C2065: 'm_Health': undeclared identifier
+  Generating Code...
