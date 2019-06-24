@@ -12,7 +12,7 @@ Player::Player()
 
 bool Player::isAlive()
 {
-	while (m_Health > 0)
+	if (m_Health > 0)
 		return true;
 	if (m_Health <= 0)
 	{
@@ -27,48 +27,15 @@ void Player::levelUp()
 		m_Level++;
 }
 
-void Player::playerActionMenu()
-{
-	cout << "Choose your move:" << endl
-		<< "1) Attack" << endl
-		<< "2) Assume defensive position." << endl
-		<< "3) Cast a spell." << endl;
-}
 
-int Player::playerActionChoice()
-{
-
-	m_DmgTaken = 1.0;
-	Unit target;
-	int choice;
-	cin >> choice;
-	switch (choice)
-	{
-	case 1:
-		attack(&target);
-		break;
-	case 2:
-		assumeDefPosition();
-		break;
-	default:
-		attack(&target);
-	}
-	m_ActionsLeft--;
-	return choice;
-}
-
-void Player::playerTurn()
-{
-	if (isAlive())
-	{
-		m_ActionsLeft++;
-		playerActionMenu();
-		playerActionChoice();
-	}
-}
 
 double Player::assumeDefPosition()
 {
 	m_DmgTaken = 0.5;
 	return m_DmgTaken;
 }
+
+
+
+
+

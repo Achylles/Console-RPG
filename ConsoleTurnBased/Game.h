@@ -1,19 +1,28 @@
 #ifndef GAME_H
 #define GAME_H
-#include "Player.h"
+#include "PaladinPlayer.h"
+#include "MagePlayer.h"
 #include "Enemy.h"
 #include <string>
+#include <windows.h>
 using namespace std;
 class Game
 {
 public:
+	void mainMenu();
+	int characterCreationMenu();
+	void playerIntro();
 	void playGame();
-	void playerActionMenu();
+	int playerActionMenu();
+	void EnemyCombat();
 protected:
-	Unit* p1 = new Player;
-	Unit* p2 = new Enemy;
-	Unit* p3 = new Enemy;
-	Unit* p4 = new Enemy;
+	Player *player;
+	Enemy *enemy;
+	vector<Enemy*> enemyList;
+	PaladinSpell* paladinSpell;
+	MageSpell* mageSpell;
+private:
+	string m_GameName="Dark Age";
 };
 
 #endif //GAME_H

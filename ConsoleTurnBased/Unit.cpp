@@ -20,11 +20,9 @@ int Unit::attack(Unit* target)
 	return amount;
 }
 
-void Unit::cast(Unit* target)
-{
-}
 
-void Unit::initialize(string & name, int atkDamage, int health)
+
+void Unit::initialize(string& name, int atkDamage, int health)
 {
 	m_Name = name;
 	m_AtkDamage = atkDamage;
@@ -37,7 +35,17 @@ bool Unit::isAlive()
 	//TODO: Update Game and check if (Unit::isAlive() = false) game.gameOver();
 }
 
+void Unit::setAttackDamage(float coeff)
+{
+	m_AtkDamage *= coeff;
+}
+
 void Unit::takeDamage(int amount)
 {
 	m_Health -= amount;
+}
+
+void Unit::useMana(int amount)
+{
+	m_Mana -= amount;
 }

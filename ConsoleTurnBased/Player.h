@@ -3,18 +3,15 @@
 
 #include "Unit.h"
 #include "Spell.h"
-
 class Player : public Unit
 {
 public:
 	Player();
 	bool isAlive();
 	void levelUp();
-	void playerActionMenu();
-	int playerActionChoice();
-	inline int getExperience() const {	return m_Experience;}
-	void playerTurn();
+	inline int getExperience() const {	return m_Experience; }
 	double assumeDefPosition();
+
 	//levelup function
 	//dying function
 	//getXP function

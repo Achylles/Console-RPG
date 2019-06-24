@@ -3,7 +3,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 class Unit
 {
 public:
@@ -15,7 +14,9 @@ public:
 	virtual void cast(Unit* target);
 	virtual void initialize(string& name, int atkDamage, int health);
 	void takeDamage(int);
+	void useMana(int);
 	virtual bool isAlive();
+	void setAttackDamage(float coeff);
 	//getters here
 	inline const string getName() const { return m_Name; }
 	inline int getHealth() const { return m_Health; }
@@ -24,6 +25,7 @@ protected:
 	string m_Name;
 	int m_Health;
 	int m_AtkDamage;
+	int m_Mana;
 };
 
 #endif //UNIT_H

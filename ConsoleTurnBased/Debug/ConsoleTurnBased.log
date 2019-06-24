@@ -1,3 +1,43 @@
-﻿  Game.cpp
-c:\users\daniel\source\repos\consoleturnbased\game.cpp(45): warning C4018: '>': signed/unsigned mismatch
-  ConsoleTurnBased.vcxproj -> C:\Users\Daniel\source\repos\ConsoleTurnBased\Debug\ConsoleTurnBased.exe
+﻿  Enemy.cpp
+c:\users\daniel\source\repos\consoleturnbased\spelleffect.h(6): error C2504: 'Spell': base class undefined
+  Game.cpp
+c:\users\daniel\source\repos\consoleturnbased\spelleffect.h(6): error C2504: 'Spell': base class undefined
+c:\users\daniel\source\repos\consoleturnbased\game.cpp(92): warning C4018: '>': signed/unsigned mismatch
+c:\users\daniel\source\repos\consoleturnbased\game.cpp(107): error C2039: 'getSpellName': is not a member of 'PaladinSpell'
+  c:\users\daniel\source\repos\consoleturnbased\paladinspell.h(5): note: see declaration of 'PaladinSpell'
+c:\users\daniel\source\repos\consoleturnbased\game.cpp(115): error C2039: 'getSpellName': is not a member of 'MageSpell'
+  c:\users\daniel\source\repos\consoleturnbased\magespell.h(5): note: see declaration of 'MageSpell'
+c:\users\daniel\source\repos\consoleturnbased\game.cpp(101): error C2360: initialization of 'target' is skipped by 'case' label
+  c:\users\daniel\source\repos\consoleturnbased\game.cpp(91): note: see declaration of 'target'
+c:\users\daniel\source\repos\consoleturnbased\game.cpp(127): error C2360: initialization of 'spellChoice' is skipped by 'case' label
+  c:\users\daniel\source\repos\consoleturnbased\game.cpp(103): note: see declaration of 'spellChoice'
+c:\users\daniel\source\repos\consoleturnbased\game.cpp(127): error C2360: initialization of 'target' is skipped by 'case' label
+  c:\users\daniel\source\repos\consoleturnbased\game.cpp(91): note: see declaration of 'target'
+  Level.cpp
+c:\users\daniel\source\repos\consoleturnbased\spelleffect.h(6): error C2504: 'Spell': base class undefined
+  MagePlayer.cpp
+c:\users\daniel\source\repos\consoleturnbased\spelleffect.h(6): error C2504: 'Spell': base class undefined
+  MageSpell.cpp
+c:\users\daniel\source\repos\consoleturnbased\spelleffect.h(6): error C2504: 'Spell': base class undefined
+c:\users\daniel\source\repos\consoleturnbased\magespell.cpp(6): error C2065: 'm_SpellName': undeclared identifier
+c:\users\daniel\source\repos\consoleturnbased\magespell.cpp(7): error C2065: 'm_SpellValue': undeclared identifier
+c:\users\daniel\source\repos\consoleturnbased\magespell.cpp(8): error C2065: 'm_Cooldown': undeclared identifier
+c:\users\daniel\source\repos\consoleturnbased\magespell.cpp(9): error C2065: 'm_ManaCost': undeclared identifier
+  main.cpp
+c:\users\daniel\source\repos\consoleturnbased\spelleffect.h(6): error C2504: 'Spell': base class undefined
+  PaladinPlayer.cpp
+c:\users\daniel\source\repos\consoleturnbased\spelleffect.h(6): error C2504: 'Spell': base class undefined
+  PaladinSpell.cpp
+c:\users\daniel\source\repos\consoleturnbased\spelleffect.h(6): error C2504: 'Spell': base class undefined
+c:\users\daniel\source\repos\consoleturnbased\paladinspell.cpp(7): error C2065: 'm_SpellName': undeclared identifier
+c:\users\daniel\source\repos\consoleturnbased\paladinspell.cpp(8): error C2065: 'm_SpellValue': undeclared identifier
+c:\users\daniel\source\repos\consoleturnbased\paladinspell.cpp(9): error C2065: 'm_Cooldown': undeclared identifier
+c:\users\daniel\source\repos\consoleturnbased\paladinspell.cpp(10): error C2065: 'm_ManaCost': undeclared identifier
+c:\users\daniel\source\repos\consoleturnbased\paladinspell.cpp(33): error C2039: 'm_ManaCost': is not a member of 'PaladinSpell'
+  c:\users\daniel\source\repos\consoleturnbased\paladinspell.h(5): note: see declaration of 'PaladinSpell'
+  Player.cpp
+c:\users\daniel\source\repos\consoleturnbased\spelleffect.h(6): error C2504: 'Spell': base class undefined
+  Spell.cpp
+c:\users\daniel\source\repos\consoleturnbased\spelleffect.h(6): error C2504: 'Spell': base class undefined
+  SpellEffect.cpp
+  Generating Code...

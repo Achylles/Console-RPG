@@ -117,20 +117,33 @@
   <ItemGroup>
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="MagePlayer.h" />
+    <ClInclude Include="MageSpell.h" />
+    <ClInclude Include="PaladinPlayer.h" />
+    <ClInclude Include="PaladinSpell.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Spell.h" />
+    <ClInclude Include="SpellEffect.h" />
     <ClInclude Include="Unit.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="MagePlayer.cpp" />
+    <ClCompile Include="MageSpell.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PaladinPlayer.cpp" />
+    <ClCompile Include="PaladinSpell.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Spell.cpp" />
+    <ClCompile Include="SpellEffect.cpp" />
     <ClCompile Include="Unit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\Desktop\Creature.txt" />
+    <Text Include="..\..\..\Desktop\Level.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

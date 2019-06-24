@@ -1,12 +1,10 @@
 #ifndef ENEMY_H
 #define ENEMY_H
-
-#include <vector>
 #include "Unit.h"
 
-enum EnemyType
+enum eCreatureType
 {
-	RED_ORC,
+	RED_ORC=1,
 	BLUE_ORC,
 	GREEN_ORC,
 	ELITE_ORC
@@ -16,7 +14,7 @@ class Enemy : public Unit
 {
 
 public:
-	Enemy();
+	Enemy(eCreatureType type);
 protected:
 	int m_DropXP;
 };
