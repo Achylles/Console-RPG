@@ -1,0 +1,10 @@
+﻿  Enemy.cpp
+  Game.cpp
+  main.cpp
+  Player.cpp
+  Spell.cpp
+  Unit.cpp
+c:\users\daniel\desktop\console-rpg-master\consoleturnbased\unit.cpp(16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+c:\users\daniel\desktop\console-rpg-master\consoleturnbased\player.cpp(22): warning C4715: 'Player::isAlive': not all control paths return a value
+  ConsoleTurnBased.vcxproj -> C:\Users\Daniel\Desktop\Console-RPG-master\ConsoleTurnBased\x64\Debug\ConsoleTurnBased.exe

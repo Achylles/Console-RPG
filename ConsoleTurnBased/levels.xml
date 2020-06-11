@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Game>
+    <Level>
+        <id>1</id>
+		<name>"Cave Level 1"</id>
+        <EnemyCount>3</EnemyCount>
+        <Enemy>
+			<Level>1</Level>
+			<Name>"Red Orc</Name>
+            <MinAtk>4</MinAtk>
+            <MaxAtk>6</MaxAtk>
+            <Health>18</Health>
+        </Enemy>
+        <Enemy>
+			<Level>1</Level>
+			<Name>"Green Orc</Name>
+            <MinAtk>4</MinAtk>
+            <MaxAtk>5</MaxAtk>
+            <Health>21</Health>
+        </Enemy>
+        <Enemy>
+			<Level>1</Level>
+			<Name>"Blue Orc</Name>
+            <MinAtk>3</MinAtk>
+            <MaxAtk>5</MaxAtk>
+            <Health>23</Health>
+        </Enemy>		
+    </Level>
+</Game>

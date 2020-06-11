@@ -15,6 +15,10 @@ public:
 	inline int getExperience() const {	return m_Experience;}
 	void playerTurn();
 	double assumeDefPosition();
+	int getCurrZone()
+	{
+		return currZone;
+	}
 	//levelup function
 	//dying function
 	//getXP function
@@ -25,5 +29,6 @@ private:
 	unsigned int m_ExperienceToNextLevel;
 	int m_ActionsLeft;
 	double m_DmgTaken;
+	int currZone;
 };
 #endif //PLAYER_H
